@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Heroes of Might and Magic Koncert Symfoniczny</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Heroes Symphonic Concert</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="gallery.html" class="active">Galeria</a></li>
+                <li><a href="map.html">Dojazd</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="event-title">Galeria</h2>
+                <h3 class="game-title">Zdjęcia z wydarzeń</h3>
+                <div class="divider"></div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Obrazy będą wczytane dynamicznie przez JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="Gallery Image" id="lightboxImage">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Heroes Symphonic Concert. Wszystkie prawa zastrzeżone.</p>
+            <p>Heroes of Might and Magic jest znakiem towarowym Ubisoft Entertainment.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
